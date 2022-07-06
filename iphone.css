@@ -1,0 +1,87 @@
+body{
+    background-color: #e3f0ff80;
+}
+
+.cover{
+    width: 254.8px;
+    height: 536.9px;
+    border-radius: 35px;
+    background-color: #215E7C;
+}
+
+.switch{
+    width: 5.85px;
+    height: 26px;
+    border-radius: 2.925px;
+    background-color: #215E7C;
+    margin-left: -257px;
+    margin-top: -170px;
+}
+
+.volume{
+    width: 5.4px;
+    height: 45.5px;
+    border-radius: 2.925px;
+    background-color: #215E7C;
+    margin-left: -257px;
+    margin-top: 15px;
+}
+
+#vol2{
+    margin-top: 5px;
+}
+
+.powerBtn{
+    width: 5.85px;
+    height: 76px;
+    border-radius: 2.925px;
+    background-color: #215E7C;
+    margin-left: 30px;
+    margin-top: -190px;
+}
+
+.screen{
+    width: 253.5px;
+    height: 539.5px;
+    border-radius: 35px;
+    border: 4.4pt solid #000000;
+    margin-left: -254.7px;
+    transform: scale(0.99);
+    background-image: url("./img/instagram-celular.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notch{
+    width: 123.5px;
+    height: 22.1px;
+    border-bottom-left-radius: 16.25px;
+    border-bottom-right-radius: 16.25px;
+    background-color: #000000;
+    margin-left: -156px;
+    transform: translateX(-25%);
+    margin-top: -503px;
+}
+
+.camera{
+    position: absolute;
+    bottom: 9.75px;
+    right: 22.1px;
+    width: 0.42rem;
+    height: 0.42rem;
+    background-color: red;
+    border: .1rem solid #1e1f22;
+    border-radius: 50%;
+    background-image: -o-linear-gradient(right, #091528, #2363a6);
+    background-image: -webkit-gradient(linear, right top, left top, from(#091528), to(#2363a6));
+}
+
+.speaker{
+    position: absolute;
+    bottom: 9.75px;
+    right: 42.25px;
+    width: 39px;
+    height: 0.45rem;
+    background-color: #333;
+    border-radius: .1rem;
+}
